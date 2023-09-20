@@ -1,4 +1,4 @@
-FROM tomcat:10.1.13-jdk21-openjdk-slim-bookworm
+FROM tomcat:10.1.13-jdk21-openjdk-slim
 
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 RUN rm -rf /usr/local/tomcat/webapps/examples
